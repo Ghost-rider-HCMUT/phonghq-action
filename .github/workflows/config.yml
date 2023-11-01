@@ -2,11 +2,11 @@
 name: Deploy Template
 
 on:
-  # Chạy khi có hành động push code lên branch main
+  
   push:
     branches: ["main"]
 
-  # Cho phép chạy theo cách thủ công ở Action Tab
+  
   workflow_dispatch:
 
 # Sets permissions của GITHUB_TOKEN
